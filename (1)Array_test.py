@@ -21,19 +21,13 @@ print(data)
 print(data_list[0])
 
 
-# In[5]:
-
 
 print(data_list[2])
 
 
-# In[8]:
-
 
 print(data_list[2][2],data_list[2][1],data_list[2][0])
 
-
-# In[14]:
 
 
 dataset = ['Braund, Mr. Owen Harris',
