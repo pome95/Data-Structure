@@ -11,15 +11,11 @@ data = [1,2,3,4,5]
 print(data)
 
 
-# In[19]:
-
 
 # 2차원 배열: 리스트로 구현시
 data = [[1,2,3],[4,5,6],[7,8,9]]
 print(data)
 
-
-# In[3]:
 
 
 print(data_list[0])
