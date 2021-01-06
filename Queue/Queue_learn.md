@@ -7,10 +7,9 @@ data_queue = queue.Queue()
 ```
 ---------------------
 
-**Queue에 데이터 삽입**
+**Queue에 데이터 넣기,빼기**
 
-put 사용
-
+**넣기** => put
 ```c
 import queue
 data_queue = queue.Queue()
@@ -22,8 +21,22 @@ data_queue.qsize()
 ```
 3
 
-```c
+--------------------
+**빼기** => get
 
+```c
+import queue
+data_queue = queue.Queue()
+
+data.queue.put("funcoding")
+data_queue.put(1)
+data_queue.put("korea")
+data_queue.get()
+```
+
+funcoding
+
+----------------------
 
 
 2차원 배열: 리스트로 구현시
