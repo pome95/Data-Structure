@@ -54,7 +54,6 @@ for i in range(len(data)):
               
               
 
-
 dataset = ['Braund, Mr. Owen Harris',
 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)',
 'Heikkinen, Miss. Laina',
