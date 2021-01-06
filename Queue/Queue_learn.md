@@ -7,9 +7,8 @@ data_queue = queue.Queue()
 ```
 ---------------------
 
-**Queue에 데이터 넣기,빼기**
-
-**넣기** => put
+**Queue에 데이터 넣기**
+**put** 
 ```c
 import queue
 data_queue = queue.Queue()
@@ -22,7 +21,8 @@ data_queue.qsize()
 3
 
 --------------------
-**빼기** => get
+**Queue에 데이터 빼기**
+**get** 사용
 
 ```c
 import queue
