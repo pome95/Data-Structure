@@ -1,12 +1,24 @@
-## 배열 (Array)
-### Using python list
+## 큐 (Queue)
+### Using python Queue()
 
-
-1차원 배열: 리스트로 구현시
 ```c
-data = [1,2,3,4,5]
-print(data)
+import queue
+data_queue = queue.Queue()
 ```
+
+Queue에 데이터 삽입
+
+```c
+import queue
+data_queue = queue.Queue()
+
+data.queue.put("funcoding")
+data_queue.put(1)
+data_queue.qsize()
+```
+2
+
+
 [1,2,3,4,5]
 
 ---------------------
