@@ -5,8 +5,9 @@
 import queue
 data_queue = queue.Queue()
 ```
+---------------------
 
-Queue에 데이터 삽입
+**Queue에 데이터 삽입**
 
 ```c
 import queue
@@ -21,7 +22,7 @@ data_queue.qsize()
 
 [1,2,3,4,5]
 
----------------------
+
 
 2차원 배열: 리스트로 구현시
 ```c
