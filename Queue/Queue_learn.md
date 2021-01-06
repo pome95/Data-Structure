@@ -9,7 +9,7 @@ data_queue = queue.Queue()
 
 **Queue에 데이터 삽입**
 
-put 
+put 사용
 
 ```c
 import queue
