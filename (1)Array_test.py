@@ -10,23 +10,27 @@
 data = [1,2,3,4,5]
 print(data)
 
+# => [1,2,3,4,5]
+
 
 
 # 2차원 배열: 리스트로 구현시
 data = [[1,2,3],[4,5,6],[7,8,9]]
 print(data)
 
-
+# => [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 print(data_list[0])
 
-
+# => [1,2,3]
 
 print(data_list[2])
 
-
+# => [7,8,9]
 
 print(data_list[2][2],data_list[2][1],data_list[2][0])
+
+# => 9 8 7
 
 
 
@@ -67,18 +71,19 @@ for data in dataset:
             m_count +=1
 print(m_count)
 
+# => 44
 
-# In[15]:
 
 
 country = 'US'
 print(country)
 
+# => US
+
 country = country + 'A'
 print(country)
 
-
-# In[ ]:
+# => USA
 
 
 
