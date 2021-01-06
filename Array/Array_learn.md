@@ -1,5 +1,5 @@
-# 배열 (Array)
-## Using python list
+## 배열 (Array)
+### Using python list
 
 
 1차원 배열: 리스트로 구현시
@@ -46,5 +46,5 @@ for i in range(len(data)):
 ```
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
               
-###### i는 len(data)만큼 -> data의 길이만큼(4)
-###### j는 len(data[i])만큼 -> 반복된 i안의 요소 길이 만큼 (4) -> 4x4 행렬
+##### i는 len(data)만큼 -> data의 길이만큼(4)
+##### j는 len(data[i])만큼 -> 반복된 i안의 요소 길이 만큼 (4) -> 4x4 행렬
