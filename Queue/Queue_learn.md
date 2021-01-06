@@ -9,18 +9,20 @@ data_queue = queue.Queue()
 
 **Queue에 데이터 삽입**
 
+put 
+
 ```c
 import queue
 data_queue = queue.Queue()
 
 data.queue.put("funcoding")
 data_queue.put(1)
+data_queue.put("korea")
 data_queue.qsize()
 ```
-2
+3
 
-
-[1,2,3,4,5]
+```c
 
 
 
