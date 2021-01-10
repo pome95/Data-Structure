@@ -1,14 +1,14 @@
 ## 큐 (Queue)
 ### Using python Queue()
 
-```c
+```python
 import queue
 data_queue = queue.Queue()
 ```
 ----------------------
 #### Queue에 데이터 넣기
 **put** 사용
-```c
+```python
 import queue
 data_queue = queue.Queue()
 
@@ -23,7 +23,7 @@ Result = 3
 #### Queue에 데이터 빼기
 **get** 사용
 
-```c
+```python
 import queue
 data_queue = queue.Queue()
 
@@ -40,7 +40,7 @@ Result = funcoding
 ----------------------
 
 ### Using python LifoQueue()
-```c
+```python
 import queue
 data_queue = queue.LifoQueue()
 ```
@@ -48,7 +48,7 @@ data_queue = queue.LifoQueue()
 
 #### LifoQueue에 데이터 넣기
 **put** 사용
-```c
+```python
 import queue
 data_queue = queue.LifoQueue()
 
@@ -63,7 +63,7 @@ Result = 3
 #### LifoQueue에 데이터 빼기
 **get** 사용
 
-```c
+```python
 import queue
 data_queue = queue.LifoQueue()
 
@@ -80,7 +80,7 @@ Result = korea
 --------------------
 
 ### Using python PriorityQueue()
-```c
+```python
 import queue
 data_queue = queue.PriorityQueue()
 ```
@@ -88,7 +88,7 @@ data_queue = queue.PriorityQueue()
 
 #### PrioirtyQueue에 데이터 넣기 / 튜플 형태 사용
 **put** 사용
-```c
+```python
 import queue
 data_queue = queue.PriorityQueue()
 
@@ -103,12 +103,12 @@ data_queue.put((6,"Japan"))
 #### PriorityQueue에 데이터 빼기
 **get** 사용
 
-```c
+```python
 data_queue.get()
 ```
 Result = (1, 'Korea')
 
-```c
+```python
 data_queue.get()
 ```
 
