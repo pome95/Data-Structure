@@ -32,7 +32,7 @@ def add(data):
          node = node.next
     node.next = Node(data)
 
-# 첫 노드 1 넣고 헤드 지정
+# 첫 노드 1 입력, 헤드 지정
 node1 = Node(1)
 head = node1
 
