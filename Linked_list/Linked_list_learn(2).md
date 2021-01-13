@@ -25,6 +25,7 @@ for index in range(2,10):
 ```
 **Node 사이에 데이터 추가하기**
 ```python
+# 1과 2사이에 1.5 노드 추가하기
 node3 = Node(1.5)
 node = head
 search = True
