@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# Node 사이에 값 추가하기
+
+#Node 클래스 생성
 class Node:
     def __init__(self,data):
         self.data = data
