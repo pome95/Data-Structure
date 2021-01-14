@@ -31,7 +31,7 @@ class NodeMgmt:
             print(node.data)
             node = node.next
 
-    # Node 값 삭제    
+    # Node 값 삭제 함수
     def delete(self,data):
         if self.head == '':
             print("해당 값을 가진 노드가 없습니다.")
