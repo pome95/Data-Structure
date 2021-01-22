@@ -27,7 +27,7 @@ print(ord(data1[0]),ord(data2[0]),ord(data3[0]))
 
 # 해쉬 테이블 작성해보기
 
-hash_table = list(0 for i in range(10)])
+hash_table = list(0 for i in range(10))
 
 # 해싱 함수 생성
 def hash_func(key):
