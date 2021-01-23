@@ -1,7 +1,7 @@
 # Data-Structure
 Studying Data-Structure with python
 
-  1. Array (배열)
+  1. [Array (배열)](/Array)
   2. Queue (큐)
   3. Stack (스택)
   4. Linked_list (연결 리스트)
