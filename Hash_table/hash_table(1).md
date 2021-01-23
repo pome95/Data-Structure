@@ -20,7 +20,7 @@ data3='Trump'
 print(ord(data1[0]),ord(data2[0]),ord(data3[0]))
 ```
 
-ord() => 문자의 ASCII 코드를 리턴해주는 함수
+ord() => 문자의 ASCII 코드를 리턴해주는 함수 <br/>
 Return => 65 68 84 
 
 ---
