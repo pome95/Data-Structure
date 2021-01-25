@@ -1,7 +1,7 @@
-## 해쉬 테이블 (Hash_table)
+## 해시 테이블 (Hash_table)
 ### Using python list comprehension
 
-## 해쉬 테이블 형태
+## 해시 테이블 형태
 
 ### 파이썬 list()를 사용하여 10칸의 테이블을 생성
 ```python
@@ -25,7 +25,7 @@ Return => 65 68 84
 
 ---
 
-## 함수 생성으로 해쉬 테이블 작성해보기
+## 함수 생성으로 해시 테이블 작성해보기
 ```python
 hash_table = list(0 for i in range(10))
 ```
