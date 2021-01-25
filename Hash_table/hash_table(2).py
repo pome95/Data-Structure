@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## 해쉬 테이블 (Hash Table)
+# ## 해시 테이블 (Hash Table)
 
-# ### 해쉬 테이블 구현해보기
+# ### 해시 테이블 구현해보기
 
 hash_table=list([0 for i in range(8)]) # list comprehension 사용 => 8칸 테이블 생성
 
