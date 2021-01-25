@@ -1,7 +1,7 @@
-## 해쉬 테이블 (Hash_table)
+## 해시 테이블 (Hash_table)
 ### Using python list comprehension
 
-## 해쉬 테이블 구현하기
+## 해시 테이블 구현하기
 ### 테이블 생성
 ```python
 hash_table=list([0 for i in range(8)]) # list comprehension 사용 => 8칸 테이블 생성
