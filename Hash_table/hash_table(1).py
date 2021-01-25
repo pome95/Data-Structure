@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## 해쉬 테이블 (Hash Table)
+# ## 해시 테이블 (Hash Table)
 
-# ### 기본 해쉬 테이블 간단 구현해보기
+# ### 기본 해시 테이블 간단 구현해보기
 
 
 # 파이썬 list comprehension 사용
@@ -25,7 +25,7 @@ print(ord(data1[0]),ord(data2[0]),ord(data3[0]))
 # 이런 방식으로 가능
 # -----------------------------------------
 
-# 함수작성으로 해쉬 테이블 작성해보기
+# 함수작성으로 해시 테이블 작성해보기
 
 hash_table = list(0 for i in range(10))
 
