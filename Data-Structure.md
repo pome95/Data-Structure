@@ -8,3 +8,4 @@ Studying Data-Structure with python
   5. [Hash Table (해쉬 테이블)](Hash_table)
   6. Tree (트리)
   7. Heap (힙)
+[![HitCount](http://hits.dwyl.com/pome95/pome95githubio.svg)](http://hits.dwyl.com/pome95/pome95githubio)
