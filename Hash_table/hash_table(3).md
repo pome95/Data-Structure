@@ -18,8 +18,8 @@ list comprehension 사용 -> 8칸의 테이블 생성
 def get_key(data):
     return hash(data)
 ```
-  
   <br/>
+
 ### 해싱 함수 -> Division법 % 8 사용
 ```python
 def hash_function(key):
@@ -43,6 +43,7 @@ def save_data(data,value):
 ```
   
   <br/>
+  
 ### 데이터 출력 함수
 ```python
 def read_data(data):
@@ -69,6 +70,7 @@ print (hash('Data') % 8)
 Result => 0 5 5
 나누기 결과 5로 같은 결과가 나오는 것을 확인                                           
 <br/>
+
 #### 데이터 넣기
 ```python
 save_data('Dd', '1201023010')
