@@ -8,7 +8,7 @@
 hash_table=list([0 for i in range(8)])
 ```
 list comprehension 사용 -> 8칸의 테이블 생성 
-<br/>
+  <br/>
 
 ### 키값을 가져오는 함수
 ```python
