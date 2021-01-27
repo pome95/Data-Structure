@@ -1,5 +1,6 @@
 ## 해시 테이블 (Hash_table)
-### Using python list comprehension
+### Using python list comprehension  \
+<br/>
 
 ## 해시 테이블 충돌 해결 (Chaining)  
 <br/>
@@ -17,12 +18,14 @@ list comprehension 사용 -> 8칸의 테이블 생성
 def get_key(data):
     return hash(data)
 ```
-
+  
+  <br/>
 ### 해싱 함수 -> Division법 % 8 사용
 ```python
 def hash_function(key):
     return key % 8
-```
+```  
+<br/>
 
 ### 데이터 입력 함수
 ```python
@@ -38,7 +41,8 @@ def save_data(data,value):
     else:
         hash_table[hash_address] = [[index_key,value]]
 ```
-
+  
+  <br/>
 ### 데이터 출력 함수
 ```python
 def read_data(data):
@@ -51,7 +55,8 @@ def read_data(data):
         return None
     else:
         return None
-```
+```  
+<br/>
 
 동일한 주소값에 데이터를 2개 넣기 위해 미리 계산해서 찾아보았다.
 (주소 값은 매번 변경이 된다)
@@ -62,8 +67,8 @@ print (hash('Data') % 8)
 ```
 
 Result => 0 5 5
-나누기 결과 5로 같은 결과가 나오는 것을 확인                                         
-      
+나누기 결과 5로 같은 결과가 나오는 것을 확인                                           
+<br/>
 #### 데이터 넣기
 ```python
 save_data('Dd', '1201023010')
@@ -71,7 +76,8 @@ save_data('Data', '3301023010')
 read_data('Dd')
 ```
 Result => '1201023010'
-정상적으로 데이터가 입력되어 출력됨을 확인
+정상적으로 데이터가 입력되어 출력됨을 확인  
+<br/>
 
 #### 해시 테이블 출력
 ```python
