@@ -102,7 +102,7 @@ print(get_key('dh')%8)
 
 Result => 1 2 2
 
-##### 값 출력
+##### 값 입력
 ```python
 save_data('db','01011112222')
 save_data('da','01022223333')
