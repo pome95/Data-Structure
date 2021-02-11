@@ -1,4 +1,4 @@
-## 배열 (Array)
+## 연결 리스트 (Linked_list)
 ### Using python Class Node
 
 **Node 구현(Class)**
