@@ -6,5 +6,5 @@ Studying Data-Structure with python
   3. [Stack (스택)](/Stack)
   4. [Linked_list (연결 리스트)](Linked_list)
   5. [Hash Table (해쉬 테이블)](Hash_table)
-  6. Tree (트리)
+  6. [Tree (트리)](/Tree)
   7. Heap (힙)
