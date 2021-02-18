@@ -1,4 +1,4 @@
-## 트리 (Tree)
+## 이진 트리 (Binary Tree)
 
 ### Using python Class Node
 
