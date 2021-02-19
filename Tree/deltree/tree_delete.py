@@ -62,7 +62,7 @@ def delete(self,value):
         if value < self.parent.value:
             self.change_node = self.current.node.right
             self.change_node_parent = self.current_node.right
-            # case 3.1.1 오른쪽 자식중 가장 작은 값의 Node에 chile가 없을때
+            # case 3.1.1 오른쪽 자식중 가장 작은 값의 Node에 child가 없을때
             while self.change_node.left!=None:
                 self.change_node_parent = self.change_node
                 self.change_node = self.change_node.left
@@ -81,7 +81,7 @@ def delete(self,value):
         else:
             self.change_node = self.current.node.right
             self.change_node_parent = self.current_node.right
-            # case 3.2.1 오른쪽 자식중 가장 작은 값의 Node에 chile가 없을때
+            # case 3.2.1 오른쪽 자식중 가장 작은 값의 Node에 child가 없을때
             while self.change_node.left!=None:
                 self.change_node_parent = self.change_node
                 self.change_node = self.change_node.left
